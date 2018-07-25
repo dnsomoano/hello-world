@@ -7,6 +7,19 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
   align-items: center;
+  background-color: darkolivegreen;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.kamiya-style {
+  font-style: italic;
 }
 
 .menu-selector {
@@ -14,7 +27,7 @@ body {
   border: 2px solid blue;
 }
 
-#header-section {
+.header-style {
   text-align: center;
   color: darkgreen;
   font-size: 110%;
@@ -31,15 +44,28 @@ body {
   border: 2px solid black;
 }
 
+#paragraph-style {
+  background-color: darkslateblue;
+}
+
+#history-paragraph-style {
+  background-color: darkslateblue;
+}
+
+#my-history-paragraph-style {
+  background-color: rgba(139, 61, 78, 0.788);
+}
+
 p {
   text-align: center;
   margin: 1em;
   padding: 1em;
 }
 
-#image {
-  align-content: center;
+img {
+  display: flex;
+  box-align: center; /* TODO FIX */
   border: 2px solid black;
-  height: 260px;
-  width: 300px;
+  height: 50%;
+  width: 50%;
 }
