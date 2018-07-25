@@ -6,9 +6,40 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  align-items: center;
 }
 
-.foldType {
+.menu-selector {
+  background-color: aquamarine;
+  border: 2px solid blue;
+}
+
+#header-section {
+  text-align: center;
+  color: darkgreen;
+  font-size: 110%;
+}
+
+.ol-text {
+  color: darkslategray;
   font-weight: bold;
   font-size: 105%;
+}
+
+.paragraph-section {
+  background-color:  darkgray;
+  border: 2px solid black;
+}
+
+p {
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+#image {
+  align-content: center;
+  border: 2px solid black;
+  height: 260px;
+  width: 300px;
 }
