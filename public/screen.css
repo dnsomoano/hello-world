@@ -6,25 +6,59 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: #F1F3F2;
+}
+
+/* nav bar */
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  background-color: darkolivegreen;
+  background-color: #24292E;
+  margin: 0;
+  border-bottom: white solid;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5em;
+}
+
+.menu-selector {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  margin: 0.5em;
+  list-style: none;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
+  margin: 0.5em;
+  color: wheat;
+}
+
+a {
+  border-radius: 0.8em;
 }
 
 h2 {
   font-size: 3em;
 }
 
-.kamiya-style {
-  font-style: italic;
-}
-
-.menu-selector {
-  background-color: aquamarine;
-  border: 2px solid blue;
+/* intro container */
+.intro {
+  border: black solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0em;
 }
 
 .header-style {
@@ -39,33 +73,104 @@ h2 {
   font-size: 105%;
 }
 
-.paragraph-section {
-  background-color:  darkgray;
-  border: 2px solid black;
+.intro-section {
+  background-color: darkgray;
+  margin: 2em;
+  width: 20em;
+  height: 10em;
+  padding:1em;
+  text-align: center;
+  border-radius: 0.8em;
 }
 
-#paragraph-style {
-  background-color: darkslateblue;
+/* main content class */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  opacity: 0.2em;
 }
 
-#history-paragraph-style {
-  background-color: darkslateblue;
+.p-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: 0.2em;
 }
 
-#my-history-paragraph-style {
-  background-color: rgba(139, 61, 78, 0.788);
+.p1-style {
+  width: 40em;
+}
+.paragraph-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  background-color: wheat;
+  text-align: center;
+  opacity: 0.7;
 }
 
 p {
   text-align: center;
-  margin: 1em;
-  padding: 1em;
+}
+
+.pic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-  display: flex;
-  box-align: center; /* TODO FIX */
+  width: 20em;
+  height: 20em;
+  box-align: center;
   border: 2px solid black;
-  height: 50%;
-  width: 50%;
+  border-radius: 0.3em;
+}
+
+/* footer */
+#next-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------------NEXT PAGE----------------------- */
+/* */
+
+/* Banner */
+.kamiya-style {
+  font-style: italic;
+}
+
+/* Header */
+.pg2-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* main content for pg 2 */
+.pg2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pg2-model {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
