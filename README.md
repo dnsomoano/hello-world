@@ -2,12 +2,13 @@ Hello, World.
 In your first assignment you will end up with a web page, no matter how simple, published on the web.
 
 Objectives
-Get to know your text editor.
-Introduce yourself to working on the command line.
-Publish a web page.
+* Get to know your text editor.
+* Introduce yourself to working on the command line.
+* Publish a web page.
 Requirements
-Have git, hub, and node installed. We should have done this together in class.
-All of your HTML (and CSS if you do adventure mode) should be formatted cleanly and consistently
+- - - - - - -
+* Have git, hub, and node installed. We should have done this together in class.
+* All of your HTML (and CSS if you do adventure mode) should be formatted cleanly and consistently
 (use your editor to your advantage).
 Explorer Mode
 - [X] Follow all of the setup instructions (See "Assignment Setup").
@@ -37,11 +38,12 @@ Expanding Your World.
 In this assignment you will end up with a simple styled web page, published on the web.
 
 Objectives
-Practice using your tools text editor.
-Explore new CSS properties
-Publish a web page.
+* Practice using your tools text editor.
+* Explore new CSS properties
+* Publish a web page.
 Requirements
-Have git, hub, and node installed. We should have done this together in class.
+- - - - - - -
+* Have git, hub, and node installed. We should have done this together in class.
 Explorer Mode
 - [X] Follow all of the setup instructions (See "Assignment Setup").
 - [ ] Using CSS, style your page to imitate some of the classic designs of the web. Feel free to make this look at "bad" as you want. Here are some sites to gain inspiration. https://www.justinmind.com/blog/10-90s-websites-designs-you-wont-believe-existed/
